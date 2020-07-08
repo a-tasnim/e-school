@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <style>
+        body {
+            background-color: lightseagreen
+        }
+        
+        .calender ul {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 1em;
+            grid-auto-columns: 50px;
+            padding: 10px;
+            width: 30px;
+        }
+        
+        .calender li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            background-color: gainsboro;
+            height: 50px;
+            width: 50px;
+            font-size: 25px;
+        }
+        
+        .other-month {
+            background-color: cornsilk !important;
+        }
+        
+        .container {
+            padding: 100px 500px;
+        }
+        
+        button {
+            background-color: palevioletred;
+            border-radius: 5px;
+            border: none;
+            height: 30px;
+            width: 150px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center; color: lightsalmon;">Calender </h1>
+        <div class="calender">
+            <ul>
+                <li class="other-month">30</li>
+                <li class="other-month">31</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li class="other-month">1</li>
+                <li class="other-month">2</li>
+
+            </ul>
+
+        </div>
+        <a href="index.html"><button>Back to the home page</button></a>
+    </div>
+
+</body>
+
+</html>
